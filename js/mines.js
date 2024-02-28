@@ -24,7 +24,7 @@ function putContent() {
 		if (cont) {
 			buttonMines.textContent = 'GERAR ENTRADA';
 			recomended.style.display = 'flex';
-			imageDefault.src = `../imagens/sinais/${gerarNumeroAleatorio0a30()}.jpeg`;
+			imageDefault.src = `../imagens/mines/sinais/${gerarNumeroAleatorio0a30()}.jpeg`;
 			recomendedSpan.textContent = gerarNumeroAleatorio2a4();
 			cont = 0;
 		}
