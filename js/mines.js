@@ -19,7 +19,7 @@ function gerarNumeroAleatorio0a30() {
 function putContent() {
 	cont = 1;
 	buttonMines.textContent = 'Gerando...';
-	imageDefault.src = `../imagens/gpt.gif`;
+	imageDefault.src = `https://gamesgpt.online/a/55310/imagens/gpt.gif`;
 	setInterval(function () {
 		if (cont) {
 			buttonMines.textContent = 'GERAR ENTRADA';
